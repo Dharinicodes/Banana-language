@@ -1,0 +1,63 @@
+/** typography **/
+
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+
+body {
+  font-family: "Chilanka", cursive;
+  margin: 0px;
+  text-align: center;
+  background: #fef9c3;
+}
+
+hr {
+  margin: 1rem 0rem;
+}
+
+.title {
+  padding: 1rem 0rem;
+  font-size: medium;
+  background: #f5e050;
+}
+
+button {
+  background: #f5e050;
+  border: none;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+
+textarea {
+  background: #fefce8;
+  max-width: 600px;
+  width: 100%;
+  height: 13vh;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  border-width: small;
+  border-radius: 6px;
+  border-color: black;
+}
+
+/** footer **/
+
+.footer {
+  background: #f5e050;
+  padding: 1rem 1rem;
+}
+
+.footer .footer-header {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+footer p {
+  padding: 1rem 1rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: justify;
+}

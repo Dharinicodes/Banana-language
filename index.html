@@ -5,34 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana language</title>
-    <style>
-      textarea {
-        width: 80%;
-        height: 10vh;
-        display: block;
-        margin: 1rem;
-        padding: 1rem;
-      }
-
-      #output {
-        border: 1px solid black;
-        height: 10vh;
-        width: 80%;
-        margin: 1rem;
-        padding: 1rem;
-      }
-    </style>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Talk Banana</h1>
+    <header class="title">
+      <h1>Wanna talk Banana naaaa🍌 or Minionese?</h1>
+    </header>
 
     <textarea
       id="txt-input"
-      placeholder="put your sentence in English here and we will convert it into Banana"
+      placeholder="put your sentence here to convert it into Banana"
     ></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger">Output will come here 👇🏽</div>
-    <div id="output"></div>
+    <button id="btn-translate">Translate to Banana</button>
+    <div>Translator gives you in Banana here 👇🏽</div>
+    <textarea id="txt-output"></textarea>
+    <footer class="footer">
+      <div class="footer-header">About</div>
+      <p>
+        Loved the way minions communicated with each other? Thought they were
+        speaking gibberish. Well, then you are wrong! The creators of this movie
+        actually invented minion's own language called "Minionese" or "Banana
+        language". Do you also want to be part of the fun? Then use this
+        translator to speak in banana with your friends.
+      </p>
+    </footer>
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
